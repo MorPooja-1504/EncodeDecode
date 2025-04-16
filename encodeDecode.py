@@ -18,5 +18,7 @@ steps = int(input("Enter steps: "))
 if direction == 'encode':
     encodeDecode()
 else:
-    steps = steps * -1
+    steps = steps * - 1
     encodeDecode()
+
+print("End")
